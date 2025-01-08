@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 80%;
+    max-width: 1000px;
+    background-color: RGB(255,255,230);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header {
+    opacity: 0.8;
+    background-image: url("kepek/fejlec.jpg");
+    height: 550px;
+    color: red;
+    font-weight: bold;
+    font-family: cursive, arial, serif;
+    text-align: center;
+}
+
+header p {
+    margin-top: 60px;
+}
+
+nav {
+    background-color: red;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+aside img {
+    width: 100%;
+}
+
+
+
+p {
+    border: black solid 5px;
+}
